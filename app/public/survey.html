@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/8067ea6254.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Our own CSS Sheet -->
+    <link rel="stylesheet" href="../css/app.css">
+
+    <!-- CSS Reset Sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="../data/friends.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Survey Questions</h1>
+
+        <hr>
+        <h2 class="sub-head">About You</h2>
+        <p class="sub-text">Name (Required)</p>
+        <input class="form-control" type="text" placeholder=" ">
+        <p class="sub-text">Link to Photo Image (Required)</p>
+        <input class="form-control" type="text" placeholder=" ">
+
+        <hr>
+        <h2 class="sub-head">Question 1</h2>
+        <p class="sub-text">Your mind is always buzzing with unexplored ideas and plans.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 2</h2>
+        <p class="sub-text">Generally speaking, you rely more on your experience than your imagination.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 3</h2>
+        <p class="sub-text">You find it easy to stay relaxed and focused even when there is some pressure.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 4</h2>
+        <p class="sub-text">You rarely do something just out of sheer curiosity.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 5</h2>
+        <p class="sub-text">People can rarely upset you.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 6</h2>
+        <p class="sub-text">It is often difficult for you to relate to other people’s feelings.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 7</h2>
+        <p class="sub-text">In a discussion, truth should be more important than people’s sensitivities.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 8</h2>
+        <p class="sub-text">You rarely get carried away by fantasies and ideas.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 9</h2>
+        <p class="sub-text">You think that everyone’s views should be respected regardless of whether they are supported
+            by facts or not.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <hr>
+        <h2 class="sub-head">Question 10</h2>
+        <p class="sub-text">You feel more energetic after spending time with a group of people.</p>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control" type="text" placeholder="Search">
+                <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
+            </div>
+        </div>
+
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <hr>
+
+    </div>
+
+    <div class="nav-links">
+        <a href="#">API Friends List | </a>
+        <a href="https://github.com/loannpham87">GitHub Repo</a>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
