@@ -64,6 +64,10 @@ function purchaseQuantity(itemId, price, stockQuantity) {
         })
 }
 
+app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "home.html"));
+   });
+
 function completePurchase(itemId, price, stockQuantity, quantity) {
     console.log(chalk.green("Your total is: $" + (price * quantity)));
     var updateStock = stockQuantity - quantity;
